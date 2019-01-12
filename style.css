@@ -1,0 +1,62 @@
+body {
+	background-color: #DCDCDC;
+	margin-top: 0px;
+	font-family: 'Crimson Text', serif;
+	color: #1d1d1d;
+}
+
+#main {
+	background-color: #FFFFFF;
+	max-width: 900px;
+	width: 85%;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: auto;
+	padding: 10px 0px 10px 0px;
+}
+
+figcaption {
+	font-size: 0.8em;
+	opacity: .75;
+	border-bottom: 1px solid #e7e7e8;
+	padding-bottom: 5px;
+}
+
+p {
+	margin: 0px 40px 0px 40px;
+	text-align: justify;
+}
+
+header {
+	padding-top: 40px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Yeseva One', cursive;
+	font-size: 3em;
+}
+
+blockquote {
+	text-align: center;
+}
+
+a {
+	color: #e82127;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+	#main {
+	  width: 100%;
+	}
+}
